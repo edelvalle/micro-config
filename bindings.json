@@ -57,7 +57,7 @@
 
     // Commands
     "CtrlO":          "OpenFile",
-    "CtrlS":          "Save",
+    "CtrlS":          "Save,vcs.toggle",
     "CtrlF":          "Find",
     "CtrlN":          "FindNext",
     "CtrlP":          "FindPrevious",
