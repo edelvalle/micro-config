@@ -29,6 +29,7 @@
 
     // -- Word
     "Alt-w":          "SpawnMultiCursor",
+    "Alt-d":          "WordLeft,DeleteWordRight",
     "CtrlShiftLeft":  "SelectWordLeft",
     "CtrlShiftRight": "SelectWordRight",
 
