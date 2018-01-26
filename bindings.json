@@ -1,0 +1,97 @@
+{
+    // Navigation
+    "Up":             "CursorUp",
+    "Down":           "CursorDown",
+    "Left":           "CursorLeft",
+    "Right":          "CursorRight",
+
+    "PageUp":         "CursorPageUp",
+    "PageDown":       "CursorPageDown",
+    "Home":           "StartOfLine",
+    "End":            "EndOfLine",
+
+    // -- Word
+    "CtrlRight":      "WordRight",
+    "CtrlLeft":       "WordLeft",
+
+    // -- Line
+    "AltLeft":        "StartOfLine",
+    "AltRight":       "EndOfLine",
+
+    // Selection
+    "ShiftUp":        "SelectUp",
+    "ShiftDown":      "SelectDown",
+    "ShiftLeft":      "SelectLeft",
+    "ShiftRight":     "SelectRight",
+
+    "AltShiftUp":     "SelectToStart",
+    "AltShiftDown":   "SelectToEnd",
+
+    // -- Word
+    "Alt-w":          "SpawnMultiCursor",
+    "CtrlShiftLeft":  "SelectWordLeft",
+    "CtrlShiftRight": "SelectWordRight",
+
+    // -- Line
+    "AltShiftLeft":   "SelectToStartOfLine",
+    "AltShiftRight":  "SelectToEndOfLine",
+    "ShiftHome":      "SelectToStartOfLine",
+    "ShiftEnd":       "SelectToEndOfLine",
+
+    // Edition
+    "CtrlShiftUp":          "MoveLinesUp",
+    "CtrlShiftDown":        "MoveLinesDown",
+
+    // Semantic navigation
+    "Alt-{":          "ParagraphPrevious",
+    "Alt-}":          "ParagraphNext",
+
+    // Caracters
+    "Enter":          "InsertNewline",
+    "CtrlH":          "Backspace",
+    "Backspace":      "Backspace",
+    "Tab":            "IndentSelection,InsertTab",
+    "Backtab":        "OutdentSelection,OutdentLine",
+    "Delete":         "Delete",
+    "Esc":            "Escape,RemoveAllMultiCursors",
+
+    // Commands
+    "CtrlO":          "OpenFile",
+    "CtrlS":          "Save",
+    "CtrlF":          "Find",
+    "CtrlN":          "FindNext",
+    "CtrlP":          "FindPrevious",
+    "CtrlG":          "ToggleHelp",
+    "CtrlR":          "ToggleRuler",
+
+    // Edition commands
+    "CtrlZ":          "Undo",
+    "CtrlY":          "Redo",
+    "CtrlC":          "Copy",
+    "CtrlX":          "Cut",
+    "CtrlK":          "CutLine",
+    "CtrlD":          "DuplicateLine",
+    "CtrlV":          "Paste",
+    "CtrlA":          "SelectAll",
+
+    // Tabs (buffers)
+    "CtrlShiftT":     "AddTab",
+    "Alt,":           "PreviousTab",
+    "Alt.":           "NextTab",
+
+    "CtrlG":          "JumpLine",
+    "CtrlB":          "ShellMode",
+    "CtrlW":          "Quit",
+    "CtrlE":          "CommandMode",
+    "CtrlQ":          "NextSplit",
+
+    "CtrlU":          "ToggleMacro",
+    "CtrlJ":          "PlayMacro",
+
+    // Mouse bindings
+    "MouseWheelUp":   "ScrollUp",
+    "MouseWheelDown": "ScrollDown",
+    "MouseLeft":      "MousePress",
+    "MouseMiddle":    "PastePrimary",
+    "Ctrl-MouseLeft": "MouseMultiCursor",
+}
